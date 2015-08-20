@@ -1,0 +1,8 @@
+.navbar-nav > li > .dropdown-menu { background-color: #194775;}
+.navbar-nav > li > .dropdown-menu > li > a{ color: #ffffff;}
+/*-- change navbar dropdown color --*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    color: #ffffff;
+  background-color: #04afe7;
+}
+
