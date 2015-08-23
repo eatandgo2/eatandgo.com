@@ -18,6 +18,13 @@
 	 	body{
 	 		background: url(image/bg_body.png);
 		}
+		#main-con{
+	 		background-color: white;
+	 		margin-top: 10px;
+	 	}
+	 	#list-vung{
+	 		margin-top: 10px;
+	 	}
 
 	 </style>
 </head>
@@ -125,7 +132,7 @@
 <div class="container">
 	<div class="row">
 				<!-- SIDEBAR -->
-	  	<div class="col-md-3 " class="list-vung">
+	  	<div class="col-md-3 " id="list-vung">
 	  		<div class="list-group">
 			  <a href="#" class="list-group-item active">DU LỊCH MIỀN BẮC</a>
 			  <a href="#" class="list-group-item">Du lịch Hạ Long</a>
@@ -138,7 +145,7 @@
 
 			</div>
 	  	</div>
-	  	<div class="col-md-9">
+	  	<div class="col-md-9" id="main-con">
 		  	<div class="item-detail">
 			  	<div class="row">
 			        <div class="col-lg-4">
