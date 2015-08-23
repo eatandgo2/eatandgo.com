@@ -8,8 +8,6 @@
 	<meta name="author" content="">
 	<title>Cẩm nang du lịch Việt Nam</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/stylemenu.css">
-	<link rel="stylesheet" href="css/styledropdown.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="carousel.css" rel="stylesheet">
@@ -19,17 +17,7 @@
 	 <style>
 	 	body{
 	 		background: url(image/bg_body.png);
-	 	}
-	 	.container .row .col-md-9{
-	 		
-	 		background-color: white !important;
-	 	}
-	 	.container{
-	 		margin-top: 10px;
-	 	}
-	 	.item-detail{
-	 		margin-top: 10px;
-	 	}
+		}
 
 	 </style>
 </head>
@@ -38,84 +26,88 @@
 <nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
-        	aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-          	</button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+          aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="#">Du Lịch Việt Nam</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-menubuilder">
-          	<ul class="nav navbar-nav">
-            	<li><a href="#">Trang Chủ</a></li>
-            	<li class="dropdown">
-            		<a href="#" data-toggle="dropdown">Du Lịch Miền Bắc <span class="caret"></span></a>
-            		<ul class="dropdown-menu">
-							<li><a href="#">Du Lịch Hạ Long</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Sapa</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Hà Nội</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Đông Bắc</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Tây Bắc</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Ninh Bình</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Quảng Ninh</a></li>
-					</ul>
-            	</li>
+            <ul class="nav navbar-nav">
+              <li><a href="#">Trang Chủ</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">Du Lịch Miền Bắc <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="content-vung.php">Du Lịch Hạ Long</a></li>
+                  
+                  <li><a href="content-vung.php">Du Lịch Sapa</a></li>
+                 
+                  <li><a href="content-vung.php">Du Lịch Hà Nội</a></li>
+                  
+                  <li><a href="content-vung.php">Du Lịch Đông Bắc</a></li>
+                 
+                  <li><a href="content-vung.php">Du Lịch Tây Bắc</a></li>
+                  
+                  <li><a href="content-vung.php">Du Lịch Ninh Bình</a></li>
+                 
+                  <li><a href="content-vung.php">Du Lịch Quảng Ninh</a></li>
+              </ul>
+            </li>
             </ul>
             <ul class="nav navbar-nav">
-            	<li class="dropdown">
-            		<a href="#" data-toggle="dropdown">Du Lịch Miền Trung <span class="caret"></span></a>
-            		<ul class="dropdown-menu">
-							<li><a href="#">Du Lịc Huế</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Nha Trang</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Đà Lạt</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Hội An</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Đà Nẵng</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Phú Yên</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Tây Nguyên</a></li>
-					<!-- </ul class="dropdown-menu"> -->
-					</ul>
-            	</li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">Du Lịch Miền Trung <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+              <li><a href="#">Du Lịc Huế</a></li>
+             
+              <li><a href="#">Du Lịch Nha Trang</a></li>
+              
+              <li><a href="#">Du Lịch Đà Lạt</a></li>
+              
+              <li><a href="#">Du Lịch Hội An</a></li>
+              
+              <li><a href="#">Du Lịch Đà Nẵng</a></li>
+              
+              <li><a href="#">Du Lịch Phú Yên</a></li>
+             
+              <li><a href="#">Du Lịch Tây Nguyên</a></li>
+          <!-- </ul class="dropdown-menu"> -->
+          </ul>
+              </li>
             </ul>
             <ul class="nav navbar-nav">
-            	<li class="dropdown">
-            		<a href="#" data-toggle="dropdown">Du Lịch Miền Nam <span class="caret"></span></a>
-            		<ul class="dropdown-menu">
-							<li><a href="#">Du Lịch Côn Đảo</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Phú Quốc</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Bà Rịa - Vũng Tàu</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Bạc Liêu</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Tiền Giang</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Cần Thơ</a></li>
-					</ul>
-            	</li>
-            	<li><a href="#">Ẩm Thực Vùng Miền</a></li>
-            	<li><a href="#">Mẹo Hay</a></li>
-            	<li><a href="#">Bản Đồ Du Lịch</a></li>
-          	</ul>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">Du Lịch Miền Nam <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Du Lịch Côn Đảo</a></li>
+                 
+                  <li><a href="#">Du Lịch Phú Quốc</a></li>
+                  
+                  <li><a href="#">Du Lịch Bà Rịa - Vũng Tàu</a></li>
+                  
+                  <li><a href="#">Du Lịch Bạc Liêu</a></li>
+                 
+                  <li><a href="#">Du Lịch Tiền Giang</a></li>
+                 
+                  <li><a href="#">Du Lịch Cần Thơ</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Ẩm Thực Vùng Miền</a></li>
+              <li><a href="#">Mẹo Hay</a></li>
+              <li><a href="#">Bản Đồ Du Lịch</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Đăng nhập</a></button></li>
+              <li><a href="#">Đăng ký</a></button></li>
+              
+          </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
 <!-- END MENU -->
-
 <!-- SLIDE  SHOW-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
@@ -239,7 +231,7 @@
 	      		</div><!-- /.row -->
 	      	</div>
 
-      		<div class="page" style="background-color: #cecece; text-align: center; margin-bottom: 10px;" >
+      		<div class="page" style="background-color: #cecece; text-align: center; margin-bottom: 10px; margin-top: 30px" >
 					<nav>
 					  	<ul class="pagination">
 						    <li>
