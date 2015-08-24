@@ -12,15 +12,22 @@
 	<link rel="stylesheet" href="css/styledropdown.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="carousel.css" rel="stylesheet">
+	<!-- <link href="carousel.css" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	 <script src="js/jquery-1.11.3.min.js"></script>
-	  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+<!-- <script src="../../assets/js/docs.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+	<script src="js/bootstrap.min.js"></script>
+	  <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
+	  <script src="https://apis.google.com/js/platform.js"></script>
 	 <style>
 	 	body{
 	 		background: url(image/bg_body.png);
 	 	}
 	 </style>
+
 </head>
 <body>
 <!-- MENU -->
@@ -383,7 +390,7 @@
 
 <!-- END SIDEBAR -->
 	
-</div>
+<!-- </div> -->
 <!-- END CONTENT-WRAP-->
 
 <!-- FOOTER -->
@@ -426,49 +433,64 @@
 			</div>
 			<div class="col-md-3">
 				<div class="line-col"></div>
-				<ul>
-					<li>
-						<img src="#" alt="Đây là cái ảnh">
-						<a href="#" title="">Link tới địa điểm trên ảnh</a>
-					</li>
-					<li>
-						<img src="#" alt="Đây là cái ảnh">
-						<a href="#" title="">Link tới địa điểm trên ảnh</a>
-					</li>
-					<li>
-						<img src="#" alt="Đây là cái ảnh">
-						<a href="#" title="">Link tới địa điểm trên ảnh</a>
-					</li>
-				</ul>
+				<!-- <ul> -->
+					<!-- <li> -->
+						<script>
+						  var googleUser = {};
+						  var startApp = function() {
+						    gapi.load('auth2', function(){
+						      // Retrieve the singleton for the GoogleAuth library and set up the client.
+						      auth2 = gapi.auth2.init({
+						        client_id: '177056325701-vpu5b7ns0gf9lguphcjjk5u1c0m72hmq.apps.googleusercontent.com',
+						        cookiepolicy: 'single_host_origin',
+						        // Request scopes in addition to 'profile' and 'email'
+						        //scope: 'additional_scope'
+						      });
+						      attachSignin(document.getElementById('customBtn'));
+						      function attachSignin(element) {
+								    console.log(element.id);
+								    auth2.attachClickHandler(element, {},
+								        function(googleUser) {
+								        	console.log(googleUser.getBasicProfile().getName());
+								        	console.log(googleUser.getBasicProfile());
+								        	
+								          document.getElementById('name').innerText = "Signed in: " +
+								              googleUser.getBasicProfile().getName();
+								        }, function(error) {
+								          alert(JSON.stringify(error, undefined, 2));
+								        });
+								  }
+						    });
+						  };
+
+						  
+						</script>
+
+						<div id="gSignInWrapper">
+					    <span class="label">Sign in with:</span>
+					    <div id="customBtn" class="customGPlusSignIn">
+					      <span class="icon"></span>
+					      <span class="buttonText">Google</span>
+					    </div>
+					  </div>
+					  <div id="name"></div>
+					  <script>startApp();</script>
+					
 			</div>
 			<div class="col-md-3">
 				<div class="line-col"></div>
-				<ul>
-					<li>
-						<img src="#" alt="Đây là cái ảnh">
-						<a href="#" title="">Link tới địa điểm trên ảnh</a>
-					</li>
-					<li>
-						<img src="#" alt="Đây là cái ảnh">
-						<a href="#" title="">Link tới địa điểm trên ảnh</a>
-					</li>
-					<li>
-						<img src="#" alt="Đây là cái ảnh">
-						<a href="#" title="">Link tới địa điểm trên ảnh</a>
-					</li>
-				</ul>
+
 			</div>
 		</div>
+
 		<div class="line"></div>
-		<!-- <div class="line-col"></div> -->
+		<div class="alignleft">
+			© Copyright 2015, All Rights Reserved. | Powered by <a href="#"> Eat And Go</a>
+		</div>
 	</div>
 </footer>
 <!-- END FOOTER -->
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="jquery-1.11.3.min.js"></script>
-<script src="../../assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
 </body>
 </html>
