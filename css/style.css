@@ -1,9 +1,92 @@
+
+a{
+
+text-decoration: none !important;
+}
+a:hover{
+	color: #1E90FF;
+}
+/*---------------------------------------------*/
+/*Slide Show*/
+.carousel-caption{
+	padding-bottom: 124px;
+}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img 
 {
 	width: 100%;
-	margin: auto;
+	
 }
+/*---------------------------------------------*/
+/* Content */
+#main-content{
+	padding: 10px;
+	background-color: white;
+}
+
+#main-content .entry-main-content{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#main-content .entry-main-content .entry-content{
+	padding-left: 22px;
+	padding-right: -25px;
+}
+
+.header-d{
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding: 15px 0 12px;
+	border-bottom: 3px solid #111111;
+	border-top: 5px double #000000;
+	background-color: #00b2ee;
+	font-family: tahoma;
+	text-align: center;
+
+}
+.header-d h4{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 25px;
+}
+.header-d h6{
+	letter-spacing: 1px;
+	font-weight: 300;
+	text-align: center;
+	color: 	#555555;
+	font-size: 15px;
+}
+.page-header{
+  padding-bottom: 0px;
+  margin: 40px 0 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+.header-sidebar{
+	border-top: 3px double black; 
+	font-weight: bold; 
+	font-family: tahoma; 
+	padding: 10px;
+}
+
+.entry-sidebar{
+padding-right: 13px;
+}
+.entry-sidebar .item-bai-viet{
+	border-bottom: 1px solid #cecece;
+	
+}
+.entry-sidebar .item-bai-viet .item-img{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.entry-item{
+	padding-left: 30px;
+}
+/*---------------------------------------------*/
+
+/* Footer*/
  #footer{
  	background: #313131;
  	font-size: 14px;
@@ -43,6 +126,7 @@
 }
 #footer{
 
+<<<<<<< HEAD
 	color: #ccc;
 }
 #footer .alignleft{
@@ -90,3 +174,76 @@
 /*.fb-login-button{
 	background: url('../image/fb.png') transparent 5px 50% no-repeat;
 }*/
+=======
+/* Menu*/
+*{
+    padding:0;
+    margin: 0;
+}
+ #custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(24, 116, 205, 1);
+    background: -webkit-linear-gradient(top, rgba(24, 116, 205, 1) 0%, rgba(24, 116, 205, 1) 100%);
+    background: linear-gradient(to bottom, rgba(24, 116, 205, 1) 0%, rgba(24, 116, 205, 1) 100%);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(24, 116, 205, 1);
+    background: -webkit-linear-gradient(top, rgba(24, 116, 205, 1) 0%, rgba(24, 116, 205, 1) 100%);
+    background: linear-gradient(to bottom, rgba(24, 116, 205, 1) 0%, rgba(24, 116, 205, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(255, 255, 255, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #1874cd;
+}
+/*---------------------------------------------*/
+
+/* Dropdown*/
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #194775;
+    padding:0 !important;
+}
+
+.navbar-nav > li > .dropdown-menu > li > a{ color: #ffffff;}
+
+/*-- change navbar dropdown color --*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,.navbar-default .navbar-nav .open .dropdown-menu {
+    color: #000000;
+  background-color: #009acd;
+  padding: 10px;
+  width: 180px;
+  border-top: 1px solid white;
+}
+/*---------------------------------------------*/
+
+
+>>>>>>> bee7284ddfcc15d2a86ba286b56790370ad3374c

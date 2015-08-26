@@ -8,8 +8,6 @@
 	<meta name="author" content="">
 	<title>Cẩm nang du lịch Việt Nam</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/stylemenu.css">
-	<link rel="stylesheet" href="css/styledropdown.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- <link href="carousel.css" rel="stylesheet"> -->
@@ -25,7 +23,7 @@
 	 <style>
 	 	body{
 	 		background: url(image/bg_body.png);
-	 	}
+		}
 	 </style>
 
 </head>
@@ -34,84 +32,88 @@
 <nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
-        	aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-          	</button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+          aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="#">Du Lịch Việt Nam</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-menubuilder">
-          	<ul class="nav navbar-nav">
-            	<li><a href="#">Trang Chủ</a></li>
-            	<li class="dropdown">
-            		<a href="#" data-toggle="dropdown">Du Lịch Miền Bắc <span class="caret"></span></a>
-            		<ul class="dropdown-menu">
-							<li><a href="#">Du Lịch Hạ Long</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Sapa</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Hà Nội</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Đông Bắc</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Tây Bắc</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Ninh Bình</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Quảng Ninh</a></li>
-					</ul>
-            	</li>
+            <ul class="nav navbar-nav">
+              <li><a href="#">Trang Chủ</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">Du Lịch Miền Bắc <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="content-vung.php">Du Lịch Hạ Long</a></li>
+                  
+                  <li><a href="content-vung.php">Du Lịch Sapa</a></li>
+                 
+                  <li><a href="content-vung.php">Du Lịch Hà Nội</a></li>
+                  
+                  <li><a href="content-vung.php">Du Lịch Đông Bắc</a></li>
+                 
+                  <li><a href="content-vung.php">Du Lịch Tây Bắc</a></li>
+                  
+                  <li><a href="content-vung.php">Du Lịch Ninh Bình</a></li>
+                 
+                  <li><a href="content-vung.php">Du Lịch Quảng Ninh</a></li>
+              </ul>
+            </li>
             </ul>
             <ul class="nav navbar-nav">
-            	<li class="dropdown">
-            		<a href="#" data-toggle="dropdown">Du Lịch Miền Trung <span class="caret"></span></a>
-            		<ul class="dropdown-menu">
-							<li><a href="#">Du Lịc Huế</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Nha Trang</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Đà Lạt</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Hội An</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Đà Nẵng</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Phú Yên</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Tây Nguyên</a></li>
-					<!-- </ul class="dropdown-menu"> -->
-					</ul>
-            	</li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">Du Lịch Miền Trung <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+              <li><a href="#">Du Lịc Huế</a></li>
+             
+              <li><a href="#">Du Lịch Nha Trang</a></li>
+              
+              <li><a href="#">Du Lịch Đà Lạt</a></li>
+              
+              <li><a href="#">Du Lịch Hội An</a></li>
+              
+              <li><a href="#">Du Lịch Đà Nẵng</a></li>
+              
+              <li><a href="#">Du Lịch Phú Yên</a></li>
+             
+              <li><a href="#">Du Lịch Tây Nguyên</a></li>
+          <!-- </ul class="dropdown-menu"> -->
+          </ul>
+              </li>
             </ul>
             <ul class="nav navbar-nav">
-            	<li class="dropdown">
-            		<a href="#" data-toggle="dropdown">Du Lịch Miền Nam <span class="caret"></span></a>
-            		<ul class="dropdown-menu">
-							<li><a href="#">Du Lịch Côn Đảo</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Phú Quốc</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Bà Rịa - Vũng Tàu</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Bạc Liêu</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Tiền Giang</a></li>
-							<li class="divider"></li>
-							<li><a href="#">Du Lịch Cần Thơ</a></li>
-					</ul>
-            	</li>
-            	<li><a href="#">Ẩm Thực Vùng Miền</a></li>
-            	<li><a href="#">Mẹo Hay</a></li>
-            	<li><a href="#">Bản Đồ Du Lịch</a></li>
-          	</ul>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown">Du Lịch Miền Nam <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Du Lịch Côn Đảo</a></li>
+                 
+                  <li><a href="#">Du Lịch Phú Quốc</a></li>
+                  
+                  <li><a href="#">Du Lịch Bà Rịa - Vũng Tàu</a></li>
+                  
+                  <li><a href="#">Du Lịch Bạc Liêu</a></li>
+                 
+                  <li><a href="#">Du Lịch Tiền Giang</a></li>
+                 
+                  <li><a href="#">Du Lịch Cần Thơ</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Ẩm Thực Vùng Miền</a></li>
+              <li><a href="#">Mẹo Hay</a></li>
+              <li><a href="#">Bản Đồ Du Lịch</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Đăng nhập</a></button></li>
+              <li><a href="#">Đăng ký</a></button></li>
+              
+          </ul>
         </div><!--/.nav-collapse -->
     </div>
 </nav>
 <!-- END MENU -->
-
 <!-- SLIDE  SHOW-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -128,8 +130,6 @@
         <div class="container">
             <div class="carousel-caption">
               <h1>Du Lịch Việt Nam - Nơi chia sẻ mọi thông tin du lịch hot nhất</h1>
-              <p>Hãy đăng ký thành viên ngay hôm nay để được viết bài bình luận về nơi mà bạn muốn chia sẻ!</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Đăng ký</a></p>
             </div>
         </div>
     </div>
@@ -138,8 +138,7 @@
         <div class="container">
             <div class="carousel-caption">
               <h1>Du Lịch Việt Nam - Nơi chia sẻ mọi thông tin du lịch hot nhất</h1>
-              <p>Hãy đăng ký thành viên ngay hôm nay để được viết bài bình luận về nơi mà bạn muốn chia sẻ!</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Đăng ký</a></p>
+              
             </div>
         </div>
     </div>
@@ -148,8 +147,7 @@
         <div class="container">
             <div class="carousel-caption">
               <h1>Du Lịch Việt Nam - Nơi chia sẻ mọi thông tin du lịch hot nhất</h1>
-              <p>Hãy đăng ký thành viên ngay hôm nay để được viết bài bình luận về nơi mà bạn muốn chia sẻ!</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Đăng ký</a></p>
+              
             </div>
         </div>
     </div>
@@ -158,11 +156,7 @@
         <div class="container">
             <div class="carousel-caption">
               <h1>Du Lịch Việt Nam - Nơi chia sẻ mọi thông tin du lịch hot nhất</h1>
-              <p>Hãy đăng ký thành viên ngay hôm nay để được viết bài bình luận về nơi mà bạn muốn chia sẻ!</p>
-              <p>
-              <a class="btn btn-lg btn-primary" href="#" role="button">Đăng Nhập</a>
-              <a class="btn btn-lg btn-primary" href="#" role="button">Đăng ký</a>
-              </p>
+              
             </div>
         </div>
     </div>
@@ -180,10 +174,9 @@
 <!-- END SLIDE SHOW-->
 
 <!-- CONTENT -->
-<div class="container">
+<div class="container" id="main-content">
 	<div class="row">
-		<div class="col-md-8">
-		<hr/>
+		<div class="col-md-9">
 			<div class="row">
 		        <div class="col-md-12">
 		          <img class="img-square" src="image/nhung-diem-den-hap-dan-nhat-o-mien-bac-dip-2-9-ivivu-1.jpg" width="100%" height="400">
@@ -194,49 +187,82 @@
 		        </div>
 		    </div>
 		    <!--  -->
-		    <div class="header-d" style="border-top: 3px solid black; border-bottom: 3px solid black;">
-		    	<h4>ĐIỂM ĐẾN</h4>
-				<h6>Những điểm đến không thể bỏ qua</h6>
-		    </div>
-		    <br/>
-			<div class="row">
-		        <div class="col-md-6">
-		          <img class="img-square" src="image/du-lich-hoi-an.jpg" alt="Generic placeholder image" width="370" height="215">
-		          <h2><a href="#">Phố cổ Hội An: Những nét đẹp dung dị ngày rằm</a></h2>
-		          <p> Nếu bạn cảm thấy cuộc sống của mình đang quá hối hả, hãy dừng lại và dành ít nhất một ngày rằm 
-		          trong tháng để ghé tới Hội An và hòa mình vào cuộc sống bình dị nơi đây.</p>
-		          
-		        </div>
-		        <div class="col-md-6">
-		          <img class="img-square" src="image/nhung-canh-dep-me-man-doc-duong-bac-trung-bo.jpg" alt="Generic placeholder image" width="370" height="215">
-		          <h2><a href="#">Những cảnh đẹp mê mẩn dọc đường Bắc Trung Bộ</a></h2>
-		          <p>Trải dài từ Thanh Hóa đến Thừa Thiên Huế, Bắc Trung Bộ được xem là cung đường có đầy đủ mọi loại địa hình từ sông, hồ, biển, ruộng, đèo… lại khoác lên mình một bề dày lịch sử hào…</p>
-		          
-		       </div>
-		    </div>
-		    <hr/>
-		    <div class="row">
-		      	
-		        <div class="col-md-6">
-		          <img class="img-square" src="image/Hoi-An-lot-Top-10-thanh-pho-tham-quan-ly-tuong-o-chau-A.jpg" alt="Generic placeholder image" width="370" height="215">
-		          <h2><a href="#">Hội An lọt Top 10 thành phố tham quan lý tưởng ở châu Á</a></h2>
-		          <p>Chuyên trang du lịch Mỹ Smarter Travel vừa công bố 10 thành phố lý tưởng để tham quan ở châu Á.</p>
-		          
-		        </div>
-		        <div class="col-md-6">
-		          <img class="img-square" src="image/Thuong-ngoan-phong-canh-nui-rung-cao-nguyen.jpg" alt="Generic placeholder image" width="370" height="215">
-		          <h2><a href="#">Du lịch Đà Lạt thưởng ngoạn phong cảnh núi rừng cao nguyên</a></h2>
-		          <p>Đến Đà Lạt, nếu muốn có cảm giác choáng ngợp trước phong cảnh núi rừng trùng điệp, hay mê man trong sắc màu rực rỡ của những vườn hoa, bạn hãy làm một chuyến ra vùng ngoại ô.</p>
-		          
-		       </div>
+			<div class="row entry-main-content">
+				<div class="header-d">
+			    	<h4><strong>ĐIỂM ĐẾN</strong></h4>
+					<h6>Những điểm đến không thể bỏ qua</h6>
+		    	</div>
+		    	<div class=" row entry-content">
+			        <div class="col-md-6">
+			          <img class="img-square" src="image/du-lich-hoi-an.jpg" alt="Generic placeholder image" width="370" height="215">
+			          <h2><a href="#">Phố cổ Hội An: Những nét đẹp dung dị ngày rằm</a></h2>
+			          <p> Nếu bạn cảm thấy cuộc sống của mình đang quá hối hả, hãy dừng lại và dành ít nhất một ngày rằm 
+			          trong tháng để ghé tới Hội An và hòa mình vào cuộc sống bình dị nơi đây.</p>
+			          
+			        </div>
+			        <div class="col-md-6">
+			          <img class="img-square" src="image/nhung-canh-dep-me-man-doc-duong-bac-trung-bo.jpg" alt="Generic placeholder image" width="370" height="215">
+			          <h2><a href="#">Những cảnh đẹp mê mẩn dọc đường Bắc Trung Bộ</a></h2>
+			          <p>Trải dài từ Thanh Hóa đến Thừa Thiên Huế, Bắc Trung Bộ được xem là cung đường có đầy đủ mọi loại địa hình từ sông, hồ, biển, ruộng, đèo… lại khoác lên mình một bề dày lịch sử hào…</p>
+			          
+			        </div>
+			    </div>
+			    <div class=" row entry-content">
+			   	    <div class="col-md-6">
+			          <img class="img-square" src="image/Hoi-An-lot-Top-10-thanh-pho-tham-quan-ly-tuong-o-chau-A.jpg" alt="Generic placeholder image" width="370" height="215">
+			          <h2><a href="#">Hội An lọt Top 10 thành phố tham quan lý tưởng ở châu Á</a></h2>
+			          <p>Chuyên trang du lịch Mỹ Smarter Travel vừa công bố 10 thành phố lý tưởng để tham quan ở châu Á.</p>
+			          
+			        </div>
+			        <div class="col-md-6">
+			          <img class="img-square" src="image/Thuong-ngoan-phong-canh-nui-rung-cao-nguyen.jpg" alt="Generic placeholder image" width="370" height="215">
+			          <h2><a href="#">Du lịch Đà Lạt thưởng ngoạn phong cảnh núi rừng cao nguyên</a></h2>
+			          <p>Đến Đà Lạt, nếu muốn có cảm giác choáng ngợp trước phong cảnh núi rừng trùng điệp, hay mê man trong sắc màu rực rỡ của những vườn hoa, bạn hãy làm một chuyến ra vùng ngoại ô.</p>
+			          
+			       </div>
+			    </div>
 			</div>
 			<!--  -->
-				<div class="header-d"  style="border-top: 3px solid black; border-bottom: 3px solid black;">
-			    	<h4>ẨM THỰC</h4>
-					<h6>Những điểm đến không thể bỏ qua</h6>
+		    <div class="row entry-main-content">
+	        	<div class="header-d">
+			    	<h4><strong>ẨM THỰC</strong></h4>
+					<h6>Những món ăn ngon hấp dẫn</h6>
+		    	</div>
+		    	<div class=" row entry-content">
+				    <div class="col-md-6">
+			          <img class="img-square" src="image/mot-vong-an-uong-quanh-thanh-pho-da-lat-ivivu.jpg" alt="Generic placeholder image" width="370" height="215">
+			          <h2><a href="#">Du lịch Đà Lạt ‘lượn’ một vòng ăn uống quanh thành phố</a></h2>
+			          <p>Bánh mì xíu mại, thịt xiên nướng hay sữa đậu nành nóng… là những món thường nằm trong danh sách “phải ăn” của thực khách khi ghé thăm thành phố Đà Lạt ngàn hoa.</p>
+			          
+			        </div>
+			        <div class="col-md-6">
+			          <img class="img-square" src="image/hung-mon-trang-mieng-danh-cho-gioi-tre-tai-sai-gon.jpg" alt="Generic placeholder image" width="370" height="215">
+			          <h2><a href="#">Du lịch Sài Gòn thưởng thức những món tráng miệng độc đáo</a></h2>
+			          <p>Bạn có thể thưởng thức lẩu tàu hũ cùng hội bạn thân hay “đánh lẻ” với món chè bột lọc heo quay nổi tiếng xứ Huế.</p>
 			    </div>
-			    <br/>
-		        <div class="row">
+			    <div class=" row entry-content">     
+			        </div>
+					<div class="col-md-6">
+				          <img class="img-square" src="image/huong-vi-dong-que-ha-tinh-trong-mon-bun-thit-nuong.jpg" alt="Generic placeholder image" width="370" height="215">
+				          <h2><a href="#">Du lịch Hà Tĩnh thưởng thức món bún thịt nướng đậm hương vị đồng quê</a></h2>
+				          <p>Bún thịt nướng Hà Tĩnh vừa tinh tế vừa đơn giản, kết hợp vị thanh mát của bún với hương thơm nồng của nước tương và vị béo ngậy của thịt</p>
+				          
+				    </div>
+			        <div class="col-md-6">
+			          <img class="img-square" src="image/ban-do-cac-quan-an-vat-o-thanh-pho-tuy-hoa.jpg" alt="Generic placeholder image" width="370" height="215">
+			          <h2><a href="#">Bản đồ các quán ăn vặt khi du lịch Tuy Hòa</a></h2>
+			          <p>Với địa chỉ bỏ túi được chính người dân địa phương hướng dẫn, bạn sẽ tha hồ ăn các món ngon nổi tiếng Tuy Hòa, Phú Yên như chả dông, bánh bèo nóng, bánh canh hẹ…</p>
+			        </div>
+			    </div>
+			</div>
+				
+			<!--  -->  
+	        <div class="row entry-main-content">
+	        	<div class="header-d">
+			    	<h4><strong>MẸO HAY DU LỊCH</strong></h4>
+					<h6>Những kinh nghiệm du lịch không thể thiếu</h6>
+		    	</div>
+		    	<div class=" row entry-content">
 				    <div class="col-md-6">
 			          <img class="img-square" src="image/mot-vong-an-uong-quanh-thanh-pho-da-lat-ivivu.jpg" alt="Generic placeholder image" width="370" height="215">
 			          <h2><a href="#">Du lịch Đà Lạt ‘lượn’ một vòng ăn uống quanh thành phố</a></h2>
@@ -248,41 +274,9 @@
 			          <h2><a href="#">Du lịch Sài Gòn thưởng thức những món tráng miệng độc đáo</a></h2>
 			          <p>Bạn có thể thưởng thức lẩu tàu hũ cùng hội bạn thân hay “đánh lẻ” với món chè bột lọc heo quay nổi tiếng xứ Huế.</p>
 			          
-			       </div>
-				</div>
-				<div class="row">
-				    <div class="col-md-6">
-			          <img class="img-square" src="image/huong-vi-dong-que-ha-tinh-trong-mon-bun-thit-nuong.jpg" alt="Generic placeholder image" width="370" height="215">
-			          <h2><a href="#">Du lịch Hà Tĩnh thưởng thức món bún thịt nướng đậm hương vị đồng quê</a></h2>
-			          <p>Bún thịt nướng Hà Tĩnh vừa tinh tế vừa đơn giản, kết hợp vị thanh mát của bún với hương thơm nồng của nước tương và vị béo ngậy của thịt</p>
-			          
 			        </div>
-			        <div class="col-md-6">
-			          <img class="img-square" src="image/ban-do-cac-quan-an-vat-o-thanh-pho-tuy-hoa.jpg" alt="Generic placeholder image" width="370" height="215">
-			          <h2><a href="#">Bản đồ các quán ăn vặt khi du lịch Tuy Hòa</a></h2>
-			          <p>Với địa chỉ bỏ túi được chính người dân địa phương hướng dẫn, bạn sẽ tha hồ ăn các món ngon nổi tiếng Tuy Hòa, Phú Yên như chả dông, bánh bèo nóng, bánh canh hẹ…</p>
-			       </div>
-				</div>
-			<div class="header-d"  style="border-top: 3px solid black; border-bottom: 3px solid black;">
-			    	<h4>MẸO HAY DU LỊCH</h4>
-					<h6>Những kinh nghiệm và mẹo hay cần lưu ý khi đi du lịch</h6>
 			    </div>
-			    <br/>
-		        <div class="row">
-				    <div class="col-md-6">
-			          <img class="img-square" src="image/mot-vong-an-uong-quanh-thanh-pho-da-lat-ivivu.jpg" alt="Generic placeholder image" width="370" height="215">
-			          <h2><a href="#">Du lịch Đà Lạt ‘lượn’ một vòng ăn uống quanh thành phố</a></h2>
-			          <p>Bánh mì xíu mại, thịt xiên nướng hay sữa đậu nành nóng… là những món thường nằm trong danh sách “phải ăn” của thực khách khi ghé thăm thành phố Đà Lạt ngàn hoa.</p>
-			          
-			        </div>
-			        <div class="col-md-6">
-			          <img class="img-square" src="image/hung-mon-trang-mieng-danh-cho-gioi-tre-tai-sai-gon.jpg" alt="Generic placeholder image" width="370" height="215">
-			          <h2><a href="#">Du lịch Sài Gòn thưởng thức những món tráng miệng độc đáo</a></h2>
-			          <p>Bạn có thể thưởng thức lẩu tàu hũ cùng hội bạn thân hay “đánh lẻ” với món chè bột lọc heo quay nổi tiếng xứ Huế.</p>
-			          
-			       </div>
-				</div>
-				<div class="row">
+			    <div class=" row entry-content">
 				    <div class="col-md-6">
 			          <img class="img-square" src="image/huong-vi-dong-que-ha-tinh-trong-mon-bun-thit-nuong.jpg" alt="Generic placeholder image" width="370" height="215">
 			          <h2><a href="#">Du lịch Hà Tĩnh thưởng thức món bún thịt nướng đậm hương vị đồng quê</a></h2>
@@ -294,88 +288,90 @@
 			          <h2><a href="#">Bản đồ các quán ăn vặt khi du lịch Tuy Hòa</a></h2>
 			          <p>Với địa chỉ bỏ túi được chính người dân địa phương hướng dẫn, bạn sẽ tha hồ ăn các món ngon nổi tiếng Tuy Hòa, Phú Yên như chả dông, bánh bèo nóng, bánh canh hẹ…</p>
 			       </div>
-				</div>
-		</div>
-		<hr/>
+			    </div>
+			</div>
+		</div> <!-- End Col-md-9 -->
+		
 	<!-- Sidebar -->	
 		
-		<div class="col-md-4">
+		<div class="col-md-3">
 			<div class="search"	>
-				<div class="header-d"  style="border-top: 3px double black;">
-				    	<h3>TÌM BÀI VIẾT</h3>
+				<div>
+				    <h3 class="header-sidebar" >TÌM BÀI VIẾT</h3>
 				</div>
-				<div class="form-group has-success has-feedback">
+				<div class="form-group has-feedback">
 					  <label class="control-label sr-only" for="inputSuccess5">Hidden label</label>
-					  <input type="text" class="form-control" id="inputSuccess5" aria-describedby="inputSuccess5Status">
+					  <input type="text" class="form-control" id="inputSuccess5" aria-describedby="inputSuccess5Status" placeholder="search" />
 					  <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
 					  <span id="inputSuccess5Status" class="sr-only">(success)</span>
 				</div>
 			</div>
+
 			<div class="entry-sidebar" >
 				<div class="page-header">
-		        	<h1 style="border-bottom-style: 2px solid black; border-top-style: 2px solid black;">Bài viết gần đây</h1>
+		        	<h3 class="header-sidebar">Bài viết gần đây</h3>
 		        </div>
-				<div class="row">
-					<div class="col-md-4">
-						<img src="#" alt="hinh-anh" width="100px" height="100px"/>
+				<div class="row item-bai-viet">
+					<div class="col-md-4 item-img">
+						<img src="image/item1.jpg" alt="hinh-anh" width="100px" height="100px"/>
 					</div>
-					<div class="col-md-8">
-						<h4><a href="#">Dapibus ac facilisis in</a></h4>
+					<div class="col-md-8 entry-item" >
+						<h4><a href="#">Khám phá Đà Lạt - miền đất thân thương...</a></h4>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<img src="#" alt="hinh-anh" width="100px" height="100px"/>
+				<div class="row item-bai-viet">
+					<div class="col-md-4 item-img">
+						<img src="image/item1.jpg" alt="hinh-anh" width="100px" height="100px"/>
 					</div>
-					<div class="col-md-8">
-						<h4><a href="#">Dapibus ac facilisis in</a></h4>
+					<div class="col-md-8 entry-item" >
+						<h4><a href="#">Khám phá Đà Lạt - miền đất thân thương...</a></h4>
 						
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<img src="#" alt="hinh-anh" width="100px" height="100px"/>
+				<div class="row item-bai-viet">
+					<div class="col-md-4 item-img">
+						<img src="image/item1.jpg" alt="hinh-anh" width="100px" height="100px"/>
 					</div>
-					<div class="col-md-8">
-						<h4><a href="#">Dapibus ac facilisis in</a></h4>
+					<div class="col-md-8 entry-item">
+						<h4><a href="image/item1.jpg">Khám phá Đà Lạt - miền đất thân thương...</a></h4>
 						
 					</div>
 				</div>
-				<hr/>
+				
         	</div>  
         	<!-- End Entry-sidebar 1 -->
         	<div class="entry-sidebar">
 				<div class="page-header">
-		        	<h1 style="border-bottom-style: 2px solid black; border-top-style: 2px solid black;">Bài viết được xem nhiều nhất</h1>
+		        	<h3 class="header-sidebar">Bài viết được xem nhiều nhất</h3>
 		        </div>
-				<div class="row">
-					<div class="col-md-4">
-						<img src="#" alt="hinh-anh" width="100px" height="100px"/>
+				<div class="row item-bai-viet">
+					<div class="col-md-4 item-img">
+						<img src="image/item2.jpg" alt="hinh-anh" width="100px" height="100px"/>
 					</div>
-					<div class="col-md-8">
-						<h4><a href="#">Dapibus ac facilisis in</a></h4>
+					<div class="col-md-8 entry-item">
+						<h4><a href="#">Thịt trâu nhúng mẻ - thịt của những kỉ niệm...</a></h4>
 						
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<img src="#" alt="hinh-anh" width="100px" height="100px"/>
+				<div class="row item-bai-viet">
+					<div class="col-md-4 item-img">
+						<img src="image/item2.jpg" alt="hinh-anh" width="100px" height="100px"/>
 					</div>
-					<div class="col-md-8">
-						<h4><a href="#">Dapibus ac facilisis in</a></h4>
+					<div class="col-md-8 entry-item">
+						<h4><a href="#">Thịt trâu nhúng mẻ - thịt của những kỉ niệm...</a></h4>
 						
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<img src="#" alt="hinh-anh" width="100px" height="100px"/>
+				<div class="row item-bai-viet">
+					<div class="col-md-4 item-img">
+						<img src="image/item2.jpg" alt="hinh-anh" width="100px" height="100px"/>
 					</div>
-					<div class="col-md-8">
-						<h4><a href="#">Dapibus ac facilisis in</a></h4>
+					<div class="col-md-8 entry-item">
+						<h4><a href="#">Thịt trâu nhúng mẻ - thịt của những kỉ niệm...</a></h4>
 						
 					</div>
 				</div>
-				<hr/>
+				
         	</div> 
         	<!-- End Entry-sidebar 2 -->
         	
