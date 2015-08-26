@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -393,7 +397,7 @@
 <footer id="footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<!-- <div class="col-md-3">
 				<div class="line-col"></div>
 				<ul>
 					<li>
@@ -426,11 +430,11 @@
 						<a href="#" title="">Link tới địa điểm trên ảnh</a>
 					</li>
 				</ul>
-			</div>
+			</div> -->
 			<div class="col-md-3">
 				<div class="line-col"></div>
-				<!-- <ul> -->
-					<!-- <li> -->
+				<ul>
+					<li>
 						<script>
 						  var googleUser = {};
 						  var startApp = function() {
@@ -444,7 +448,7 @@
 						      });
 						      attachSignin(document.getElementById('customBtn'));
 						      function attachSignin(element) {
-								    console.log(element.id);
+								    // console.log(element.id);
 								    auth2.attachClickHandler(element, {},
 								        function(googleUser) {
 								        	console.log(googleUser.getBasicProfile().getName());
@@ -471,11 +475,20 @@
 					  </div>
 					  <div id="name"></div>
 					  <script>startApp();</script>
-					
+					</li>
+					<li>
+							<div class="fb">
+							<a href="http://localhost/eatandgo.com/plugins/fbconfig.php" title="">
+							<!-- <button type="button" class="btn btn-success">Facebook</button> -->
+								<img src="image/fb_login.png" alt="">
+							</a>
+							</div>
+					</li>
+				</ul>
 			</div>
 			<div class="col-md-3">
 				<div class="line-col"></div>
-
+				
 			</div>
 		</div>
 

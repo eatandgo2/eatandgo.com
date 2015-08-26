@@ -115,19 +115,18 @@ padding-right: 13px;
 	padding: 0px 0px 10px 0px;
 }
 
-#footer .container .row .col-md-3 ul li img{
+/*#footer .container .row .col-md-3 ul li img{
 	width: 80px;
 	height: 80px;
 	clear: left;
-}
+}*/
 #footer .container .row .col-md-3 ul li a{
 	clear: right;
 	
 }
 #footer{
 
-<<<<<<< HEAD
-	color: #ccc;
+	color: #C4C4C4;
 }
 #footer .alignleft{
 	float: left;
@@ -136,7 +135,11 @@ padding-right: 13px;
 .alignleft a{
 	color: #ccc;
 }
-
+/*Sign in fb*/
+.fb img{
+  width: 195px;
+  height: 45px;
+}
 /*Sign in gg*/
 #customBtn {
       display: inline-block;
@@ -171,9 +174,6 @@ padding-right: 13px;
       font-family: 'Roboto', sans-serif;
     }
 
-/*.fb-login-button{
-	background: url('../image/fb.png') transparent 5px 50% no-repeat;
-}*/
 =======
 /* Menu*/
 *{
